@@ -6,6 +6,8 @@ body
 h1
 {
     font-size: 50px;
+    line-height: 25px;
+    font-weight: 800;
 }
 h2{
     font-size: 40px;
@@ -30,7 +32,7 @@ h2{
 }
 .half-width img
 {
-    width: 80%;
+    width: 90%;
 }
 .link-button
 {
@@ -42,22 +44,11 @@ h2{
     border-radius: 5px;
 }
 
-.top-banner{
-    background-image: url(images/top-banner.png);
-    background-repeat: no-repeat;
-}
-
 .develop-bg{
     background-image:url(images/shapes/shape-1.png) ;
     background-repeat: no-repeat;
     background-position: left;
     padding-right: 2%;
-}
-
-.experience-area{
-    background-image: url(images/exp-bg.png);
-    background-repeat: no-repeat;
-    background-position: left;
 }
 
 .mission-bottom{
@@ -68,10 +59,25 @@ h2{
     box-shadow: 10px 10px 40px gray;
     border-left: 10px solid green;
     border-radius: 15px;
+    margin-top: 30px;
 }
+.mission-bottom-bgcolor1{
+    background-color: antiquewhite;
+}
+.mission-bottom-bgcolor2{
+    background-color: rgb(234, 220, 238);
+}
+.mission-bottom-bgcolor3{
+    background-color: rgb(213, 238, 234);
+}
+
 .mission-bottom img{
     width: 50%;
 }
 .heading-center{
     text-align: center;
+}
+.stay-focus{
+    padding-top: 10%;
+    padding-left: 10%;
 }
