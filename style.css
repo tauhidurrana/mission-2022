@@ -6,11 +6,12 @@ body
 h1
 {
     font-size: 50px;
-    line-height: 25px;
+    line-height: 30px;
     font-weight: 800;
 }
 h2{
     font-size: 40px;
+    margin: 0;
 }
 
 .green-color
@@ -52,7 +53,7 @@ h2{
 }
 
 .mission-bottom{
-    width: 25%;
+    width: 30%;
     margin-left: 5%;
     margin-right: 5%;
     padding-left: 10px;
@@ -80,4 +81,15 @@ h2{
 .stay-focus{
     padding-top: 10%;
     padding-left: 10%;
+}
+
+#textresize{
+    font-size: 60px;
+}
+
+.footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    
 }
